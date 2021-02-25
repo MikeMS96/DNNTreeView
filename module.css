@@ -1,0 +1,45 @@
+.TreeViewStyle {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #666;
+    font-weight: bold;
+}
+
+.ParentNodeStyle {
+    font-size: 16px;
+    color: #464646;
+    font-weight: bold;
+}
+
+.RootNodeStyle {
+    border-width: 0;
+    background: #2d4a74;
+    color: #fff;
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+
+.LeafNodeStyle {
+    font-size: 14px;
+    color: #666;
+}
+
+.HoverNodeStyle {
+    text-decoration: underline;
+}
+
+.SelectedNodeStyle {
+}
+
+.TreeViewStyle table tr td:first-child {
+    width: 30px;
+}
+
+
+.TreeViewStyle table td {
+    padding: 5px;
+}
+
+.LeafNodeStyle span {
+    color: #8e8e8e !important;
+}
